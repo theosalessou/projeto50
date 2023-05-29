@@ -73,8 +73,8 @@ function draw() {
   fill("red");
   text("GAME OVER", windowWidth / 2 - 130, windowHeight / 2);
 
-  bg.velocityX = -40;
-  portal.velocityX = -40;
+  bg.velocityX = -15;
+  portal.velocityX = -15;
 
   timer = millis() / 1000;
   console.log(Math.round(timer.toFixed(2)));
